@@ -1,7 +1,7 @@
 window.addEventListener('scroll', function () {
     const navbar = document.querySelector('.navbar');
     const navLinks = document.querySelectorAll('.nav-link');
-    const logo = this.document.querySelector('#logo-img');
+    const logo = document.querySelector('#logo-img');
     const menuOpen = document.querySelector('#menu-open');
     const menuClose = document.querySelector('#menu-close');
 
@@ -50,7 +50,7 @@ function toggleHandler(element) {
 
 
 function goToTop() {
-    document.documentElement.scrollTop = 0
+    document.documentElement.scrollTop = 0;
 }
 
 
